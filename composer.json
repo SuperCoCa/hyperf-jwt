@@ -17,7 +17,12 @@
     },
     "autoload-dev": {},
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "ext-swoole": ">=4.5",
+        "hyperf/config": "~2.1.0",
+        "hyperf/utils": "~2.1.0",
+        "hyperf/framework": "~2.1.0",
+        "hyperf/di": "~2.1.0"
     },
     "require-dev": {},
     "extra": {
