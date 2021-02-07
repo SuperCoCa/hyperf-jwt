@@ -1,0 +1,28 @@
+{
+    "name": "supercoca/hyperf-jwt",
+    "description": "JWT permission management used in Hyperf",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SuperCoCa",
+            "email": "h_donald_u@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SuperCoCa\\JWT\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {},
+    "extra": {
+        "hyperf": {
+            "config": "SuperCoCa\\JWT\\ConfigProvider"
+        }
+    }
+}
